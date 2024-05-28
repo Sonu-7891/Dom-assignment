@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Cards</title>
+    <style>
+        .card {
+            border: 2px solid grey;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            max-width: 250px;
+        }
+        .box1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1" id="box1"></div>
+    <form id="form_user">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Add User</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
